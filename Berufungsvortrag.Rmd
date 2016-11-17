@@ -1,6 +1,6 @@
 ---
-title: "Formative Rückmeldung von Unterrichtsqualität."
-author: "Schulpädagogische Perspektiven auf datengestützte Unterrichtsentwicklung."
+title: "Forschung zur Rezeption formativer Rückmeldungen von Unterrichtsqualität."
+author: "Samuel Merk"
 output: 
   ioslides_presentation:
     css: Style/my.css
@@ -19,8 +19,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Inhaltlicher und organisatorischer Überblick {.nullneunem}
 
 * Verortung des Vortrags im Forschungsplan
-* Monitoring
-    * Definitionen
+* Institutionalisierte Rückmeldesysteme
+    * Funktion und Addressaten
     * Konzeptualisierungen
     * kritische Diskussion
 * Synopse zentraler Befunde
