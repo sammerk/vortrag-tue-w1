@@ -1,0 +1,11 @@
+base
+methods
+datasets
+utils
+grDevices
+graphics
+stats
+tufte
+readr
+RColorBrewer
+wordcloud

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="208.44128mm"
+   height="52.009525mm"
+   viewBox="0 0 738.57148 184.28572"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="wordcloud_1.svg">
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3555">
+      <rect
+         style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="rect3557"
+         width="590.85718"
+         height="147.42857"
+         x="128.85715"
+         y="-159.78571"
+         transform="scale(1,-1)" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="199.15194"
+     inkscape:cy="-78.927008"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="990"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-11.428574,-102.36222)">
+    <g
+       transform="matrix(1.25,0,0,-1.25,-149.64286,302.09435)"
+       inkscape:label="wordcloud_1"
+       id="g3379"
+       clip-path="url(#clipPath3555)">
+      <g
+         id="g3381">
+        <path
+           inkscape:connector-curvature="0"
+           id="path3383"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 788,0 788,171 0,171 0,0 Z" />
+        <text
+           id="text3385"
+           style="font-variant:normal;font-weight:normal;font-size:7.15199995px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#a51e41;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,365.16406,83.71875)">
+          <tspan
+             id="tspan3387"
+             sodipodi:role="line"
+             y="0"
+             x="0 4.36272 8.3392324 9.9269762 13.502976 15.48408 19.460592 23.437103 25.024849 28.600847 30.603409 34.579922 40.537537 44.51405 46.101791 50.078304 54.054817">Folk epistemology</tspan>
+        </text>
+        <text
+           id="text3389"
+           style="font-variant:normal;font-weight:normal;font-size:7.15199995px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#b4a069;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,321.68359,77.304688)">
+          <tspan
+             id="tspan3391"
+             sodipodi:role="line"
+             y="0"
+             x="0 4.7632322 8.7397442 10.327488 13.903488 15.884592 19.861103 25.81872 29.795233 31.404432 35.380943 39.357456 40.945202 44.521198 48.497711 50.085457 52.066559 57.230305 61.206818 63.588432 65.176178 69.174141 72.750145 74.337891 78.3144 83.478142">Epistemological worldviews</tspan>
+        </text>
+        <text
+           id="text3393"
+           style="font-variant:normal;font-weight:normal;font-size:7.15199995px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#7b7d84;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,400.26562,90.144531)">
+          <tspan
+             id="tspan3395"
+             sodipodi:role="line"
+             y="0"
+             x="0 1.981104 7.9387202 11.915232 13.502976 15.09072 18.666719 20.254463 22.235567 24.216673 28.193184 32.191151 33.778896 37.354897 39.335999 43.312511 49.270126 53.246639 54.834385 58.810898 62.787407">Implicit epistemology</tspan>
+        </text>
+        <text
+           id="text3397"
+           style="font-variant:normal;font-weight:normal;font-size:11.27999973px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#7b7d84;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,296.24219,67.722656)">
+          <tspan
+             id="tspan3399"
+             sodipodi:role="line"
+             y="0"
+             x="0 7.5124798 13.78416 16.288321 21.92832 25.052879 31.32456 40.720798 46.992481 49.496639 55.768318 62.040001 64.544159 70.184158 76.455841 78.959999 82.084557 85.840797 92.11248 97.75248 104.02416 110.29584 114.05208 119.69208 125.96376">Epistemological resources</tspan>
+        </text>
+        <text
+           id="text3401"
+           style="font-variant:normal;font-weight:normal;font-size:11.27999973px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#37414b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,381.79297,97.507812)">
+          <tspan
+             id="tspan3403"
+             sodipodi:role="line"
+             y="0"
+             x="0 7.5124798 13.78416 16.288321 21.92832 25.052879 31.32456 40.720798 43.22496 48.86496 51.989521 57.62952 63.901199 70.172882 78.317039 80.821198 87.09288 93.364563 99.636238">Epistemic knowledge</tspan>
+        </text>
+        <text
+           id="text3405"
+           style="font-variant:normal;font-weight:normal;font-size:7.15199995px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#a51e41;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,328.23828,92.976562)">
+          <tspan
+             id="tspan3407"
+             sodipodi:role="line"
+             y="0"
+             x="0 4.7632322 8.7397442 10.327488 13.903488 15.884592 19.861103 25.81872 27.406464 31.00392 32.985023 36.561024 38.54213 42.11813 43.705872 47.682384">Epistemic styles</tspan>
+        </text>
+        <text
+           id="text3409"
+           style="font-variant:normal;font-weight:normal;font-size:11.27999973px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#37414b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,427.92578,67.082031)">
+          <tspan
+             id="tspan3411"
+             sodipodi:role="line"
+             y="0"
+             x="0 7.5124798 13.78416 16.288321 21.92832 25.052879 31.32456 40.720798 43.22496 48.86496 51.989521 57.62952 61.385761 63.889919 67.014481 73.286163 77.042397 79.546562">Epistemic criteria</tspan>
+        </text>
+        <text
+           id="text3413"
+           style="font-variant:normal;font-weight:normal;font-size:21.60000038px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#b4a069;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,339.62891,109.33984)">
+          <tspan
+             id="tspan3415"
+             sodipodi:role="line"
+             y="0"
+             x="0 14.3856 26.395201 31.190399 41.990398 47.973598 59.9832 77.975998 89.985603 94.7808 106.7904 118.8 123.5952 134.3952 146.4048 151.2 157.1832 167.9832 173.9664 185.976 197.92081 208.72079">Epistemological stance</tspan>
+        </text>
+        <text
+           id="text3417"
+           style="font-variant:normal;font-weight:normal;font-size:21.60000038px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#a51e41;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,274.01562,50.117188)">
+          <tspan
+             id="tspan3419"
+             sodipodi:role="line"
+             y="0"
+             x="0 14.3856 26.395201 31.190399 41.990398 47.973598 59.9832 77.975998 89.985603 94.7808 106.7904 118.8 123.5952 135.6048 140.39999 146.38319 158.39281 170.4024 175.1976 179.9928 191.93761 197.92081">Epistemologial beliefs</tspan>
+        </text>
+        <text
+           id="text3421"
+           style="font-variant:normal;font-weight:normal;font-size:15.40799999px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#c57947;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,443.97656,77.617188)">
+          <tspan
+             id="tspan3423"
+             sodipodi:role="line"
+             y="0"
+             x="0 10.261728 18.828575 22.249151 29.953152 34.221169 42.788017 55.622879 59.043457 66.747459 71.015472 78.719475 82.987488 91.554337 100.12119 107.82519">Epistemic stance</tspan>
+        </text>
+        <text
+           id="text3425"
+           style="font-variant:normal;font-weight:normal;font-size:15.40799999px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#a51e41;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,131.55078,89.023438)">
+          <tspan
+             id="tspan3427"
+             sodipodi:role="line"
+             y="0"
+             x="0 10.261728 18.828575 22.249151 29.953152 34.221169 42.788017 55.622879 64.189728 67.610306 76.177155 84.744003 88.164574 95.868576 104.43542 107.856 112.12402 120.69086 129.25771 137.82455 142.95543 151.52228 160.08913 167.79312 176.35997 184.92682">Epistemological approaches</tspan>
+        </text>
+        <text
+           id="text3429"
+           style="font-variant:normal;font-weight:normal;font-size:7.15199995px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#c57947;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,239.60156,80.703125)">
+          <tspan
+             id="tspan3431"
+             sodipodi:role="line"
+             y="0"
+             x="0 4.7632322 8.7397442 10.327488 13.903488 15.884592 19.861103 25.81872 29.795233 31.404432 35.380943 39.357456 40.945202 44.521198 48.497711 50.085457 52.066559 54.047665 58.024178 60.405792 66.384865">Epistemological forms</tspan>
+        </text>
+        <text
+           id="text3433"
+           style="font-variant:normal;font-weight:normal;font-size:11.27999973px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#c57947;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,489.32031,91.726562)">
+          <tspan
+             id="tspan3435"
+             sodipodi:role="line"
+             y="0"
+             x="0 7.5124798 13.78416 16.288321 21.92832 25.052879 31.32456 40.720798 43.22496 48.86496 51.989521 57.62952 63.901199 70.172882 76.444557 78.948723 82.07328 84.577438 90.849121">Epistemic cognition</tspan>
+        </text>
+        <text
+           id="text3437"
+           style="font-variant:normal;font-weight:normal;font-size:11.27999973px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#b4a069;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,232.75781,109.44141)">
+          <tspan
+             id="tspan3439"
+             sodipodi:role="line"
+             y="0"
+             x="0 7.5124798 13.78416 16.288321 21.92832 25.052879 31.32456 40.720798 43.22496 48.86496 51.989521 55.745762 62.017441 68.289124 73.929123 80.200798 86.472481 88.976639 95.248322">Epistemic reasoning</tspan>
+        </text>
+        <text
+           id="text3441"
+           style="font-variant:normal;font-weight:normal;font-size:7.15199995px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#37414b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,242.26172,102.49219)">
+          <tspan
+             id="tspan3443"
+             sodipodi:role="line"
+             y="0"
+             x="0 4.7632322 8.7397442 10.327488 13.903488 15.884592 19.861103 25.81872 29.795233 31.404432 35.380943 39.357456 40.945202 44.521198 48.497711 50.085457 52.066559 56.043072 57.630817 61.206818 65.183327 69.181297 72.757294 74.345039 76.326141 77.913887 81.890404 85.866913">Epistemological dispositions</tspan>
+        </text>
+        <text
+           id="text3445"
+           style="font-variant:normal;font-weight:normal;font-size:15.40799999px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#7b7d84;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,368.85547,126.97266)">
+          <tspan
+             id="tspan3447"
+             sodipodi:role="line"
+             y="0"
+             x="0 10.261728 18.828575 22.249151 29.953152 34.221169 42.788017 55.622879 64.189728 67.610306 76.177155 84.744003 88.164574 95.868576 104.43542 107.856 112.12402 120.69086 129.25771 137.82455 146.3914 151.52228 159.22627 163.49429 172.06114 180.62799 189.19484 192.6154 201.18225">Epistemological understanding</tspan>
+        </text>
+        <text
+           id="text3449"
+           style="font-variant:normal;font-weight:normal;font-size:11.27999973px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#b4a069;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,170.18359,71.6875)">
+          <tspan
+             id="tspan3451"
+             sodipodi:role="line"
+             y="0"
+             x="0 7.5124798 13.78416 16.288321 21.92832 25.052879 31.32456 40.720798 43.22496 48.86496 51.989521 58.2612 64.532883 70.804558 77.076241 83.347923 89.619598 95.891281 102.16296 107.80296">Epistemic dependence</tspan>
+        </text>
+        <text
+           id="text3453"
+           style="font-variant:normal;font-weight:normal;font-size:13.34399986px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#37414b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,168.35156,57.429688)">
+          <tspan
+             id="tspan3455"
+             sodipodi:role="line"
+             y="0"
+             x="0 8.887104 16.306368 19.268736 25.940737 29.637024 37.05629 48.171841 51.134209 57.80621 61.502495 68.921761 76.341026 79.303391 82.265762 89.68502 93.38131">Epistemic beliefs</tspan>
+        </text>
+        <text
+           id="text3457"
+           style="font-variant:normal;font-weight:normal;font-size:7.15199995px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#c57947;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,488.54687,51.539062)">
+          <tspan
+             id="tspan3459"
+             sodipodi:role="line"
+             y="0"
+             x="0 4.7632322 8.7397442 10.327488 13.903488 15.884592 19.861103 25.81872 27.406464 31.00392 32.985023 36.561024 40.537537 42.125278 43.713024 47.689537 51.666046 53.647152 55.234898 59.211407">Epistemic validation</tspan>
+          <tspan
+             id="tspan3461"
+             sodipodi:role="line"
+             y="-6.4570332"
+             x="20.800783 25.564016 29.540527 31.128271 34.704273 36.685375 40.661888 46.619503 48.207249 51.804703 53.785809 56.167423 60.143936 64.120445 68.096962 69.6847 73.661217 75.642319 77.230064 81.206573">Epistemic regulation</tspan>
+        </text>
+        <text
+           id="text3463"
+           style="font-variant:normal;font-weight:normal;font-size:11.27999973px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#37414b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,516.39453,66.433594)">
+          <tspan
+             id="tspan3465"
+             sodipodi:role="line"
+             y="0"
+             x="0 7.5124798 13.78416 16.288321 21.92832 25.052879 31.32456 40.720798 46.992481 49.496639 55.768318 62.040001 64.544159 70.184158 76.455841 78.959999 82.084557 88.356239 92.11248 94.616638 100.88832 107.16 110.28456 116.55624 119.6808 122.18496 128.45663 134.72832">Epistemological orientations</tspan>
+        </text>
+        <text
+           id="text3467"
+           style="font-variant:normal;font-weight:normal;font-size:15.40799999px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#d2c5a3;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,197.10547,35.101562)">
+          <tspan
+             id="tspan3469"
+             sodipodi:role="line"
+             y="0"
+             x="0 10.261728 18.828575 22.249151 29.953152 34.221169 42.788017 55.622879 64.189728 67.610306 76.177155 84.744003 88.164574 95.868576 104.43542 107.856 112.12402 116.39203 121.5229 130.08974 142.92461 151.49146 162.61603 171.18288 176.31375 184.01775">Epistemological frameworks</tspan>
+        </text>
+        <text
+           id="text3471"
+           style="font-variant:normal;font-weight:normal;font-size:15.40799999px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#a51e41;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,401.99609,33.570312)">
+          <tspan
+             id="tspan3473"
+             sodipodi:role="line"
+             y="0"
+             x="0 10.261728 18.828575 22.249151 29.953152 34.221169 42.788017 55.622879 64.189728 67.610306 76.177155 84.744003 88.164574 95.868576 104.43542 107.856 112.12402 120.69086 129.25771 137.82455 146.3914 151.52228 160.08913 163.50969 172.07654 180.64339 184.06396 192.63081 201.19766">Epistemological underpinnings</tspan>
+        </text>
+        <text
+           id="text3475"
+           style="font-variant:normal;font-weight:normal;font-size:11.27999973px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#c57947;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,222.24219,121.08984)">
+          <tspan
+             id="tspan3477"
+             sodipodi:role="line"
+             y="0"
+             x="0 7.5124798 13.78416 16.288321 21.92832 25.052879 31.32456 40.720798 43.22496 48.86496 51.989521 58.2612 63.901199 69.541199 75.812881 85.209122 91.480797 94.605362 97.10952 103.3812 109.65288">Epistemic assumptions</tspan>
+        </text>
+        <text
+           id="text3479"
+           style="font-variant:normal;font-weight:normal;font-size:21.60000038px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#37414b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,356.04687,142.53906)">
+          <tspan
+             id="tspan3481"
+             sodipodi:role="line"
+             y="0"
+             x="0 14.3856 26.395201 31.190399 41.990398 47.973598 59.9832 77.975998 89.985603 94.7808 106.7904 118.8 123.5952 134.3952 146.4048 151.2 157.1832 169.19279 179.9928 190.728 202.73759 220.73039 232.74001 238.72321 243.5184 255.528 267.5376">Epistemological assumptions</tspan>
+        </text>
+        <text
+           id="text3483"
+           style="font-variant:normal;font-weight:normal;font-size:17.47200012px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#37414b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,251.66016,18.875)">
+          <tspan
+             id="tspan3485"
+             sodipodi:role="line"
+             y="0"
+             x="0 11.636352 21.350784 25.229568 33.965569 38.805313 48.519745 63.073921 72.788353 76.667137 86.381569 96.096001 99.974785 108.71078 118.42522 122.304 127.14375 136.85817 146.5726 152.39078 161.12679 170.84122 180.55565 189.29164 194.13139 198.01018 206.74617 216.4606">Epistemological perspectives</tspan>
+        </text>
+        <text
+           id="text3487"
+           style="font-variant:normal;font-weight:normal;font-size:11.27999973px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#7b7d84;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,565.94531,76.75)">
+          <tspan
+             id="tspan3489"
+             sodipodi:role="line"
+             y="0"
+             x="0 7.5124798 13.78416 16.288321 21.92832 25.052879 31.32456 40.720798 46.992481 49.496639 55.768318 62.040001 64.544159 70.184158 76.455841 78.959999 82.084557 87.724564 93.996239 100.26792 108.41208 110.91624 117.18792 123.4596 129.73128">Epistemological knowledge</tspan>
+        </text>
+        <text
+           id="text3491"
+           style="font-variant:normal;font-weight:normal;font-size:11.27999973px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#a51e41;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,228.94922,130.99219)">
+          <tspan
+             id="tspan3493"
+             sodipodi:role="line"
+             y="0"
+             x="0 7.5124798 13.78416 16.288321 21.92832 25.052879 31.32456 40.720798 46.992481 49.496639 55.768318 62.040001 64.544159 70.184158 76.455841 78.959999 82.084557 85.209122 91.480797 97.75248 104.02416 110.29584 116.56752">Epistemological thought</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
