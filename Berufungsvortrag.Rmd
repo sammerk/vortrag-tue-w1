@@ -9,7 +9,7 @@ output:
     smaller: no
     widescreen: yes
 bibliography: ../../../../../../Downloads/library.bib
-csl: Bib/apa.csl
+csl: Bib/dgps.csl
 ---
 
 ```{r setup, include=FALSE}
@@ -21,9 +21,10 @@ knitr::opts_chunk$set(echo = FALSE)
 * Verortung des Vortrags im Forschungsplan
 * Institutionalisierte Rückmeldesysteme
     * Funktion und Adressaten
+    * Rahmenmodell
     * Befunde zur Rezeption
 * Formative Rückmeldung von Unterrichtsqualitätsdiagnostik
-    * Grundidee
+    * Motivation
     * Befunde zur Rezeption
     * Forschungsplan
 * Ausblick  
@@ -41,15 +42,63 @@ Die interaktiven Folien können unter https://merk.shinyapps.io/mindthegap und d
 ## Funktionen und Adressaten
 <center><img src="Img/Funktionen_Adressaten_w.png" width ="100%" /></center>
 <div class="centered" ><font size="-1">
-Abb. 1: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altrichter2016]. Eigene Darstellung.
+Abb. 2: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altrichter2016]. Eigene Darstellung.
 </font></div>
 
-     
-## Befunde zur Rezeption
-* Test test
-    * Test
+## Rahmenmodell
+<center><img src="Img/Helmke.png" height ="480px" /></center>
+<div class="centered" ><font size="-1">
+Abb. 3: Zyklenmodell von der Evaluation zur Innovation [@Helmke2005]
+</font></div>
+
+## Befunde zur Rezeption {.nullneunem}
+* Größtenteils wird die Rezeption von **Leistungsrückmeldung** untersucht [@Penny2004; @Gartner2013]
+* Befunde zum Rezeptionsverhalten und dem Verständis sind sehr heterogen:
+    * Spezifisch für deutschsprachige Selbstauskünfte: **breite Rezeption, gutes globales Verständis, hohe prinzipielle Nützlichkeit** [@Dedering2011; @Schneewind2007]
+    * Internationale Selbstauskünfte: Große Probleme mit **deskriptiver/inferentieller Statistik**, kaum **systematische** Rezeption und Reflektion durch die Kollegien [@Hambleton1997; @Koch2011; @Maier2010d]
+* Befunde zum Nutzungsverhalten eher pessimistisch:
+    * Vornehmlich strategische anstatt instrumentelle/konzeptionelle Nutzung [@Amrein-Beardsley2010; @Maier2008]
+    * Primär Handlungsimpulse für Reorganisation von Curriculara und Lerngruppen [@Ashby2001; @Kirkup2005]
+* <span style="color:#a51e41">Methodische Probleme:</span> Selbstauskünfte, hohe Selektivität, nichtexperimentelle/One-Shot Studien, unklare abhängige Konstrukte, ...
+
+
+# Formative Rückmeldung von Unterrichtsqualität
+
+## Motivation {.nullneunem}
+* **Formatives** Feedback (Feedback <span style="font-style: italic">for</span> Learning) gilt als eine der **einflussreichsten Größen** (i.S. hinr. Bed.) für das Lernen im Allgemeinen [@Ditton2014; @Hattie2007; @Kluger1996]
+* UQ als Interaktionsprodukt von Lerngruppe und Lehrkraft ist ein **proximaler** und **heuristisch starker** Prädiktor von Lernerfolg [@Kane2013]
+* UQ wird bereits von den meisten Rückmeldesystemen erfasst 
+<center><img src="Img/Formative_UQD_w.png" height="240px" style="margin-top:19px"/></center>
+<div class="centered" >
+<font size="-1">
+Abb. 4: Potentielle Datenquellen formativer Rückmeldung von Unterrichtsqualität
+</font></div>  
+
+## Forschung
+* **Rezeption** formativer Rückmeldungen von Unterrichtsqualität
+    * Effekte der Gestaltung: Inferenzniveau der Daten, Bezugsnorm, Gegenstand, Skalierung, statistische Kennwerte
+    * Effekte individueller, schulischer und außerschulischer Bedingungen
+* **Gestaltung** formativer Rückmeldungen
+    * Cues
+    * Interaktivität
+* **Interventionen** zur Förderung korrekter und günstiger Rezeption
+    * Datenkompetenz
+    * Bezugsnormorientierung
+
+    
+## Befunde einer Design-Based-Research Study
+* 
 
 
 
 
+
+
+
+<style>
+slides > slide { overflow: scroll; }
+slides > slide:not(.nobackground):after {
+  content: '';
+}
+</style>
 ## Literatur {.nullvierem}

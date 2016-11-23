@@ -495,9 +495,9 @@ b {
 
 /* line 266, ../scss/default.scss */
 a {
-  color: #A51E41;
+  color: #A51E41 !important;
   text-decoration: none;
-  border-bottom: 1px solid rgba(232, 237, 242, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0) !important;
 }
 /* line 271, ../scss/default.scss */
 a:hover {
@@ -701,7 +701,7 @@ button:not(:disabled):active {
 
 /* line 418, ../scss/default.scss */
 .blue3 {
-  color: #2a7cdf;
+  color: #a51e41;
 }
 
 /* line 421, ../scss/default.scss */
@@ -1290,7 +1290,9 @@ article.smaller q:before, article.smaller q:after {
 /* line 812, ../scss/default.scss */
 .segue h2 {
   color: #e6e6e6;
-  font-size: 45px;
+  font-size: 42px !important;
+  margin-bottom: -50px !important;  /* Höhe des Zwischentitels schwarze Überschriften schwarze Folien*/
+  margin-left: -50px!important;
 }
 /* line 816, ../scss/default.scss */
 .segue h3 {
@@ -1399,10 +1401,11 @@ aside.gdbar img {
 }
 /* line 891, ../scss/default.scss */
 .title-slide hgroup h1 {
-  font-size: 50px;
+  font-size: 49px !important;
   line-height: 1.4;
   letter-spacing: -3px;
   color: #515151;
+  margin-top: -200px !important; /* Der Haupttitel auf der Titelseite */
 }
 /* line 898, ../scss/default.scss */
 .title-slide hgroup h2 {
@@ -1411,12 +1414,12 @@ aside.gdbar img {
   line-height: 1.15;
   font-weight: inherit;
 }
-/* line 904, ../scss/default.scss */
+/* line 904, ../scss/default.scss */  /* Autor */
 .title-slide hgroup p {
   font-size: 20px;
   color: #797979;
   line-height: 1.3;
-  margin-top: 2em;
+  margin-top: 75px !important;
 }
 
 /* line 913, ../scss/default.scss */
