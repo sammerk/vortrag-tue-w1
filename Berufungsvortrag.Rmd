@@ -23,10 +23,9 @@ knitr::opts_chunk$set(echo = FALSE)
     * Funktion und Adressaten
     * Rahmenmodell
     * Befunde zur Rezeption
-* Formative Rückmeldung von Unterrichtsqualitätsdiagnostik
-    * Motivation
-    * Befunde zur Rezeption
-    * Forschungsplan
+* Formative Rückmeldung für die Unterrichtsentwicklung
+    * Ableitung und Begründung
+    * Potentielle Forschung
 * Ausblick  
   
   
@@ -40,7 +39,7 @@ Die interaktiven Folien können unter https://merk.shinyapps.io/mindthegap und d
 
 # Institutionalisierte Rückmeldesysteme
 ## Funktionen und Adressaten
-<center><img src="Img/Funktionen_Adressaten_w.png" width ="100%" /></center>
+<center><img src="Img/Funktionen_Adressaten_w2.png" width ="95%" /></center>
 <div class="centered" ><font size="-1">
 Abb. 2: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altrichter2016]. Eigene Darstellung.
 </font></div>
@@ -62,43 +61,42 @@ Abb. 3: Zyklenmodell von der Evaluation zur Innovation [@Helmke2005]
 * <span style="color:#a51e41">Methodische Probleme:</span> Selbstauskünfte, hohe Selektivität, nichtexperimentelle/One-Shot Studien, unklare abhängige Konstrukte, ...
 
 
-# Formative Rückmeldung von Unterrichtsqualität
+# <span style="font-style: italic">Formative</span> Rückmeldungen für die <span style="font-style: italic">Unterrichtsentwicklung</span> 
 
-## Motivation {.nullneunem}
+## Ableitung und Begründung {.nullneunem}
+* Institutionalisierte Rückmeldesysteme geben (größtenteils) **summative** Rückmeldungen zu **distalen** Größen
 * **Formatives** Feedback (Feedback <span style="font-style: italic">for</span> Learning) gilt als eine der **einflussreichsten Größen** (i.S. hinr. Bed.) für das Lernen im Allgemeinen [@Ditton2014; @Hattie2007; @Kluger1996]
-* UQ als Interaktionsprodukt von Lerngruppe und Lehrkraft ist ein **proximaler** und **heuristisch starker** Prädiktor von Lernerfolg [@Kane2013]
+* UQ als Interaktionsprodukt von Lerngruppe und Lehrkraft ist 
+    * starker Prädiktor von Lernerfolg [@Kane2013] und 
+    * **proximal/heuristisch** zur/für die Unterrichtsentwicklung [@Helmke2009]
 * UQ wird bereits von den meisten Rückmeldesystemen erfasst 
-<center><img src="Img/Formative_UQD_w.png" height="240px" style="margin-top:19px"/></center>
+<center><img src="Img/Formative_UQD_w.png" height="200px" style="margin-top:19px"/></center>
 <div class="centered" >
 <font size="-1">
 Abb. 4: Potentielle Datenquellen formativer Rückmeldung von Unterrichtsqualität
 </font></div>  
 
-## Forschung
+## Potentielle Forschung
 * **Rezeption** formativer Rückmeldungen von Unterrichtsqualität
     * Effekte der Gestaltung: Inferenzniveau der Daten, Bezugsnorm, Gegenstand, Skalierung, statistische Kennwerte
     * Effekte individueller, schulischer und außerschulischer Bedingungen
 * **Gestaltung** formativer Rückmeldungen
-    * Cues
-    * Interaktivität
+    * Cues, Interaktivität, Zeitpunkt
 * **Interventionen** zur Förderung korrekter und günstiger Rezeption
-    * Datenkompetenz
-    * Bezugsnormorientierung
+    * Datenkompetenz, Bezugsnormorientierung
+<div class="centered" font-size=6pt><span style="color:#C57974"><font size="6pt"><p></p>
+Hohe Synergie möglich: Daten sind vorhanden, Feld ist interessiert, Probanden werden entlastet, Ergebnisse unmittelbar praxisrelevant</font></span>
+</div>
 
+# Ausblick
     
-## Befunde einer Design-Based-Research Study
-* 
-
-
-
+## Erste Befunde einer DBR-Studie
+<iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="Design-Based-Research_Studie.html" width="100%" frameborder="0"></iframe>
 
 
 
 
 <style>
 slides > slide { overflow: scroll; }
-slides > slide:not(.nobackground):after {
-  content: '';
-}
 </style>
 ## Literatur {.nullvierem}

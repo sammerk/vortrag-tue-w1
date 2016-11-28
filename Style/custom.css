@@ -1,0 +1,43 @@
+#header {
+    margin-top: 1px;
+    font-size: 60.00px;
+    color: #A51E41;
+}
+
+a {
+    color: #A51E41;
+}
+
+
+
+body {
+  max-width: 1200px;
+  margin: auto;
+  line-height: 18pt;
+  font-size: +14pt;
+  color: #797979;
+  font: sans-serif;
+
+}
+
+h1 {
+  font: sans-serif;
+  margin-bottom: 20px;
+  color: #515151;
+}
+
+
+h2 {
+color: #515151;
+  margin-bottom: 10px;
+}
+
+
+h3 {
+  font-family: 'Open Sans';
+  margin-bottom: 5px;
+}
+
+
+
+
