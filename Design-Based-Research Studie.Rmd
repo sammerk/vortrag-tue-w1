@@ -5,24 +5,6 @@ output:
 bibliography: ../../../../../../Downloads/library.bib
 csl: Bib/dgps.csl
 ---
-# Design
-* Anfrage einer großen Nachhilfeschule nach Feedback für Lehrende 
-* Entwicklung/Adaption eines Instrumentes zur Erfassung der Instruktionsqualität, basierend auf dem Instrument **Students Evaluations of Educational Quality** [SEEQ, @Marsh1982]
-* Entwicklung einer interaktiven Webapplikation zur Rezeption des formativen Feedbacks
-* Logdaten der Webapplikation und retrospektive Befragung
-
-# Material
-## Feedback-App
-<video controls="controls" class="centered"  width = 100%>
-  <source  type="video/mp4" src="Img/nikolaus.mp4"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
-
-## Adaptierter SEEQ
-* Fünf Dimensionen: Lernerfolg, Organisation, Enthusiasmus, Interaktion, Beziehung
-* Hohe Konstruktvalidität (MLCFA: )
-* Hohe Reliabilität auf Level 1 (McDonals Omega): 
-* Zufriedenstellende Reliabilität auf Level 2 (ICC2):
 
 ```{r fb_data and log_data reading, cache = T, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
 library(readr)
@@ -65,7 +47,8 @@ for (file in log_files){
 }
 ```
 
-```{r logdatawrangling2}
+```{r logdatawrangling2, echo=F, results="hide", warning=F, message=F}
+library(tidyverse)
 log_data <- log_data_raw[grepl("[@]", log_data_raw$user), ] ## Filtern der Zeilen mit Kommata 
 log_data <- log_data%>%                                     ## in IP-Adresse
   mutate(user = factor(user),
@@ -128,12 +111,15 @@ log_data_fplot <- log_data%>%
    summarize(v_dauer_t_pp = sum(v_dauer_t, na.rm = T),
              Summe_Klicks = sum(`Anz. Klicks`))%>%
    ungroup()%>%
+   group_by(variable)%>%
    mutate(v_dauer_t_pp_gm = scale_this(v_dauer_t_pp),
           Summe_Klicks_gm = scale_this(Summe_Klicks))%>%
+   ungroup()%>%
    group_by(user)%>%
    mutate(v_dauer_t_pp_ip = scale_this(v_dauer_t_pp),
           Summe_Klicks_ip = scale_this(Summe_Klicks))%>%
-   ungroup()
+   ungroup()%>%
+   filter(value != "nolikert")
  
  ## Export
  readr::write_csv(log_data_short, "shiny/log_data_short.csv")
@@ -195,13 +181,44 @@ log_data_fplot <- log_data%>%
  
 ```
 
-# Stichprobe
-* $N_{Level_1}$ = `r nrow(sus_fb_data)` Schüler\*innenfragebögen
-* $N_{Level_2}$ = `r length(unique(log_data$user))` Lehrer*innen = Studierende
-* $N$ = `r nrow(log_data)` Feedbackanforderungen (Logdaten)
-* $N$ = `r nrow(kl_fb_data)` retrospektive Befragungen
+# Design & Stichprobe
+* Anfrage einer großen Nachhilfeschule nach Feedback für Lehrende 
+     * $N_{Level_1}$ = `r nrow(sus_fb_data)` Schüler\*innenfragebögen
+     * $N_{Level_2}$ = `r length(unique(log_data$user))` Lehrer\*innen = Studierende
+* Entwicklung/Adaption eines Instrumentes zur Erfassung der Instruktionsqualität, basierend auf dem Instrument **Students Evaluations of Educational Quality** [SEEQ, @Marsh1982]
+     * Fünf Dimensionen: Lernerfolg, Organisation, Enthusiasmus, Interaktion, Beziehung
+     * Hohe Konstruktvalidität (MLCFA: )
+     * Hohe Reliabilität auf Level 1 (McDonals Omega): 
+     * Zufriedenstellende Reliabilität auf Level 2 (ICC2):
+* Entwicklung einer **interaktiven Webapplikation** zur Rezeption des formativen Feedbacks
+* **Logdaten** der Webapplikation und retrospektive Befragung
+     * $N$ = `r nrow(log_data)` Feedbackanforderungen (Logdaten)
+     * $N$ = `r nrow(kl_fb_data)` retrospektive Befragungen
 
-# Erste Ergebnisse
+
+# Material
+## Feedback-App
+<video controls="controls" class="centered"  width = 100%>
+  <source  type="video/mp4" src="Img/screencast_cut.mp4"></source>
+  <p>Your browser does not support the video element.</p>
+</video>
+
+## Login-Seite
+![alt text](Img/sc_sh_login.png)
+
+## Einzelantworten
+![alt text](Img/sc_sh_einz.png)
+
+## Qualitätdimensionen (freie Gestaltung)
+![alt text](Img/sc_sh_q1.png)
+
+## Qualitätdimensionen (Leitfragen)
+![alt text](Img/sc_sh_q2.png)
+
+## Freitexte
+![alt text](Img/sc_sh_frei.png)
+
+
 
 # Literatur
 

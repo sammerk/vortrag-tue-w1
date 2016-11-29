@@ -1,15 +1,15 @@
 ---
-title: "Forschung zur Rezeption formativer Rückmeldungen von Unterrichtsqualität."
+title: "Forschung zur Rezeption formativer Rückmeldungen von Unterrichtsqualität"
+subtitle: "Ein schulpädagogischer Beitrag zur datengestützen Unterrichtsentwicklung"
 author: "Samuel Merk"
 output: 
   ioslides_presentation:
-    runtime: shiny
     css: Style/my.css
     incremental: no
     logo: Img/logo.png
     smaller: no
     widescreen: yes
-bibliography: ../../../../../../Downloads/library.bib
+bibliography: Bib/library.bib
 csl: Bib/dgps.csl
 ---
 
@@ -17,9 +17,9 @@ csl: Bib/dgps.csl
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Inhaltlicher und organisatorischer Überblick {.nullneunem}
+## Inhaltlicher und organisatorischer Überblick
 
-* Verortung des Vortrags im Forschungsplan
+* Verortung des Vortrags
 * Institutionalisierte Rückmeldesysteme
     * Funktion und Adressaten
     * Rahmenmodell
@@ -31,10 +31,10 @@ knitr::opts_chunk$set(echo = FALSE)
   
   
 <div class="centered" font-size=8pt><span style="color:#C57974"><font size="3pt"><p></p><p></p>
-Die interaktiven Folien können unter https://merk.shinyapps.io/mindthegap und deren Quellcode unter https://github.com/sammerk/vortrag-tue-w1 abgerufen werden</font></span>
+<p>Die interaktiven Folien können unter http://bit.ly/2gQTbSj und deren Quellcode</p> <p>unter https://github.com/sammerk/vortrag-tue-w1 abgerufen werden</p></font></span>
 </div>
 
-## Verortung des Vortrags im Forschungsplan
+## Verortung des Vortrags
 
 <iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="https://prezi.com/embed/c1rvndbxe3x6/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5aEQ1TVBzWjY5VzdybjRycXpOSUU5M3pRPT0&amp;landing_sign=PihTDvVXzP7XDTFptwZmn1HqeZb70B5WWP69XuYPdUY" width="300" height="255" frameborder="0"></iframe>
 
@@ -48,7 +48,7 @@ Abb. 2: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altricht
 ## Rahmenmodell
 <center><img src="Img/Helmke.png" height ="480px" /></center>
 <div class="centered" ><font size="-1">
-Abb. 3: Zyklenmodell von der Evaluation zur Innovation [@Helmke2005]
+Abb. 3: Zyklenmodell "Von der Evaluation zur Innovation" [@Helmke2005]
 </font></div>
 
 ## Befunde zur Rezeption {.nullneunem}
@@ -77,12 +77,12 @@ Abb. 3: Zyklenmodell von der Evaluation zur Innovation [@Helmke2005]
 Abb. 4: Potentielle Datenquellen formativer Rückmeldung von Unterrichtsqualität
 </font></div>  
 
-## Potentielle Forschung
+## Potentielle (experimentelle) Forschung
+* **Gestaltung** formativer Rückmeldungen
+    * Cues, Interaktivität, Zeitpunkt
 * **Rezeption** formativer Rückmeldungen von Unterrichtsqualität
     * Effekte der Gestaltung: Inferenzniveau der Daten, Bezugsnorm, Gegenstand, Skalierung, statistische Kennwerte
     * Effekte individueller, schulischer und außerschulischer Bedingungen
-* **Gestaltung** formativer Rückmeldungen
-    * Cues, Interaktivität, Zeitpunkt
 * **Interventionen** zur Förderung korrekter und günstiger Rezeption
     * Datenkompetenz, Bezugsnormorientierung
 <div class="centered" font-size=6pt><span style="color:#C57974"><font size="6pt"><p></p>
@@ -95,19 +95,10 @@ Hohe Synergie möglich: Daten sind vorhanden, Feld ist interessiert, Probanden w
 <iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="Design-Based-Research_Studie.html" width="100%" frameborder="0"></iframe>
 
 ## Erste Befunde einer DBR-Studie II
-```{r, echo = FALSE}
-library(shiny)
-shinyAppDir(
-  system.file("shiny", package="shiny"),
-  options=list(
-    width="100%", height=700
-  )
-)
-
-```
+<iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="https://unterrichtsfeedback.net/logdataapp" width="100%" frameborder="0"></iframe>
 
 
-
+# Herzlichen Dank!
 
 <style>
 slides > slide { overflow: scroll; }
