@@ -3,6 +3,7 @@ title: "Forschung zur Rezeption formativer Rückmeldungen von Unterrichtsqualit�
 author: "Samuel Merk"
 output: 
   ioslides_presentation:
+    runtime: shiny
     css: Style/my.css
     incremental: no
     logo: Img/logo.png
@@ -90,8 +91,20 @@ Hohe Synergie möglich: Daten sind vorhanden, Feld ist interessiert, Probanden w
 
 # Ausblick
     
-## Erste Befunde einer DBR-Studie
+## Erste Befunde einer DBR-Studie I
 <iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="Design-Based-Research_Studie.html" width="100%" frameborder="0"></iframe>
+
+## Erste Befunde einer DBR-Studie II
+```{r, echo = FALSE}
+library(shiny)
+shinyAppDir(
+  system.file("shiny", package="shiny"),
+  options=list(
+    width="100%", height=700
+  )
+)
+
+```
 
 
 

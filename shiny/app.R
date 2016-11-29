@@ -21,7 +21,8 @@ shinyApp(
                                 "Skalierung Qualitätsdim."), selected = "Inferenzniveau"),
         selectInput('skalierung', 'Skalierung', c("Rohwerte","z-student. Werte", "ipsativ stand. Werte")),
         checkboxInput('jitter', 'Jitter'),
-        checkboxInput('meanci', 'MW & CI', value = F),
+        checkboxInput('mean', 'MW', value = F),
+        checkboxInput('ci', 'CI', value = F),
         checkboxInput('violin', 'Dichte', value = T),
         conditionalPanel(condition = "input.skalierung == 'Rohwerte' & input.y == 'Verweildauer' ",
             sliderInput("ylim", "y-Limits", 0, 2000, c(0, 2000))
@@ -89,18 +90,19 @@ shinyApp(
                     
                     if(input$skalierung != 'Rohwerte')
                       plot <- plot + coord_cartesian(ylim=c(input$ylim2[1], input$ylim2[2]))
-                    
-                    if(input$jitter == T) 
-                    plot <- plot  + geom_jitter()
                      
                     if(input$violin == T) 
-                    plot <- plot  + geom_violin(color = "#2A4D8C4D", fill = "#2A4D8C4D")
+                    plot <- plot  + geom_violin(color = "#a51e41", fill = "#a51e41", alpha = 1/2)
                     
-                    if(input$meanci == T)
-                    plot <- plot + stat_summary(fun.data = "mean_cl_boot", colour = "#a51e41", size = 1.3,
-                                                geom = "errorbar", width = .08) +
-                                   stat_summary(fun.data = "mean_cl_boot", colour = "#a51e41", size = 1.3,
-                                                geom = "point")
+                    if(input$jitter == T) 
+                      plot <- plot  + geom_jitter()
+                    
+                    if(input$ci == T)
+                    plot <- plot + stat_summary(fun.data = "mean_cl_boot", colour = "#bc6261", size = 1.3,
+                                                geom = "errorbar", width = .08) 
+                    if(input$mean == T)
+                    plot <- plot + stat_summary(fun.data = "mean_cl_boot", colour = "#a51e41",
+                                   geom = "point", size = 2)
                     
                     
               
@@ -140,12 +142,13 @@ shinyApp(
                plot <- plot  + geom_jitter()
              
              if(input$violin == T) 
-               plot <- plot  + geom_violin(color = "#2A4D8C4D", fill = "#2A4D8C4D")
+               plot <- plot  + geom_violin(color = "#a51e41", fill = "#a51e41", alpha = 1/2)
              
-             if(input$meanci == T)
+             if(input$ci == T)
                plot <- plot + stat_summary(fun.data = "mean_cl_boot", colour = "#a51e41", size = 1.3,
-                                           geom = "errorbar", width = .08) +
-                              stat_summary(fun.data = "mean_cl_boot", colour = "#a51e41", size = 1.3,
+                                           geom = "errorbar", width = .08) 
+             if(input$mean == T)
+               plot <- plot + stat_summary(fun.data = "mean_cl_boot", colour = "#a51e41", size = 1.3,
                                            geom = "point")
              
              
