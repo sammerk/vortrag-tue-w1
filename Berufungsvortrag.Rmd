@@ -5,20 +5,21 @@ author: "Samuel Merk"
 output: 
   ioslides_presentation:
     css: Style/my.css
-    incremental: no
+    incremental: yes
     logo: Img/logo.png
     smaller: no
     widescreen: yes
-bibliography: Bib/library.bib
+bibliography: ../../../../../../Downloads/library.bib
 csl: Bib/dgps.csl
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+#Bib/library.bib
 ```
 
 ## Inhaltlicher und organisatorischer Überblick
-
+<!--
 * Verortung des Vortrags
 * Institutionalisierte Rückmeldesysteme
     * Funktion und Adressaten
@@ -27,7 +28,20 @@ knitr::opts_chunk$set(echo = FALSE)
 * Formative Rückmeldung für die Unterrichtsentwicklung
     * Ableitung und Begründung
     * Potentielle Forschung
-* Ausblick  
+* Ausblick  -->
+
+* Verortung des Vortrags
+* Datengestützte Unterrichtsentwicklung
+    * Rahmenmodell
+* Institutionalisierte Rückmeldesysteme
+    * Funktion und Adressaten
+    * Befunde zur Rezeption
+* Formative Rückmeldung für die Unterrichtsentwicklung
+    * Begründung und exemplarische Umsetzung
+    * Erste Befunde zum Rezeptions- und Reflektionsverhalten
+
+
+
   
   
 <div class="centered" font-size=8pt><span style="color:#C57974"><font size="3pt"><p></p><p></p>
@@ -38,67 +52,112 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="https://prezi.com/embed/c1rvndbxe3x6/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5aEQ1TVBzWjY5VzdybjRycXpOSUU5M3pRPT0&amp;landing_sign=PihTDvVXzP7XDTFptwZmn1HqeZb70B5WWP69XuYPdUY" width="300" height="255" frameborder="0"></iframe>
 
-# Institutionalisierte Rückmeldesysteme
-## Funktionen und Adressaten
-<center><img src="Img/Funktionen_Adressaten_w2.png" width ="95%" /></center>
-<div class="centered" ><font size="-1">
-Abb. 2: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altrichter2016]. Eigene Darstellung.
+
+# Datengestützte Unterrichtsentwicklung
+## Rahmenmodell
+<center><img src="Img/Helmke.png" height ="450px" /></center>
+<div class="centered" ><font size="-0.7">
+Abb. 2: Zyklenmodell "Von der Evaluation zur Innovation" [@Helmke2005]
 </font></div>
+
+
+<div class="centered"><span style="color:#C57974 margin-bottom:2cm"><font size="3pt">
+<p class="top-one">Folien: http://bit.ly/2gQTbSj - Quellcode: https://github.com/sammerk/vortrag-tue-w1</p></font></span>
+</div>
+
+<style>
+  .top-one {
+     margin-top: 1cm;
+  }
+</style>
 
 ## Rahmenmodell
-<center><img src="Img/Helmke.png" height ="480px" /></center>
-<div class="centered" ><font size="-1">
-Abb. 3: Zyklenmodell "Von der Evaluation zur Innovation" [@Helmke2005]
+<center><img src="Img/Helmke_high.png" height ="450px" /></center>
+<div class="centered" ><font size="-0.7">
+Abb. 2: Zyklenmodell "Von der Evaluation zur Innovation" [@Helmke2005]
 </font></div>
 
-## Befunde zur Rezeption {.nullneunem}
-* Größtenteils wird die Rezeption von **Leistungsrückmeldung** untersucht [@Penny2004; @Gartner2013]
-* Befunde zum Rezeptionsverhalten und dem Verständis sind sehr heterogen:
-    * Spezifisch für deutschsprachige Selbstauskünfte: **breite Rezeption, gutes globales Verständis, hohe prinzipielle Nützlichkeit** [@Dedering2011; @Schneewind2007]
-    * Internationale Selbstauskünfte: Große Probleme mit **deskriptiver/inferentieller Statistik**, kaum **systematische** Rezeption und Reflektion durch die Kollegien [@Hambleton1997; @Koch2011; @Maier2010d]
-* Befunde zum Nutzungsverhalten eher pessimistisch:
-    * Vornehmlich strategische anstatt instrumentelle/konzeptionelle Nutzung [@Amrein-Beardsley2010; @Maier2008]
-    * Primär Handlungsimpulse für Reorganisation von Curriculara und Lerngruppen [@Ashby2001; @Kirkup2005]
+<div class="centered"><span style="color:#C57974 margin-bottom:2cm"><font size="3pt">
+<p class="top-one">Folien: http://bit.ly/2gQTbSj - Quellcode: https://github.com/sammerk/vortrag-tue-w1</p></font></span>
+</div>
+
+
+# Institutionalisierte Rückmeldesysteme
+## Institutionalisierte Rückmeldesysteme
+<center><img src="Img/Funktionen_Adressaten_ink1.png" width ="95%" /></center>
+<div class="centered" ><font size="-1">
+Abb. 3: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altrichter2016]. Eigene Darstellung.
+</font></div>
+## Institutionalisierte Rückmeldesysteme
+<center><img src="Img/Funktionen_Adressaten_ink2.png" width ="95%" /></center>
+<div class="centered" ><font size="-1">
+Abb. 3: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altrichter2016]. Eigene Darstellung.
+</font></div>
+## Institutionalisierte Rückmeldesysteme
+<center><img src="Img/Funktionen_Adressaten_ink3.png" width ="95%" /></center>
+<div class="centered" ><font size="-1">
+Abb. 3: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altrichter2016]. Eigene Darstellung.
+</font></div>
+
+
+## Summative vs. formative Rückmeldungen
+<center><img src="Img/tabelle_s_vs_f_1.png" width ="60%" /></center>
+<div class="centered" ><font size="-1">
+Tab. 1: Charakteristika formativer und summativer Rückmeldungen an Lehrer*innen [@Gartner2013b; @Maier2008]. Eigene Darstellung.
+</font></div>
+## Summative vs. formative Rückmeldungen
+<center><img src="Img/tabelle_s_vs_f_2.png" width ="60%" /></center>
+<div class="centered" ><font size="-1">
+Tab. 1: Charakteristika formativer und summativer Rückmeldungen an Lehrer*innen [@Gartner2013b; @Maier2008]. Eigene Darstellung.
+</font></div>
+
+
+
+## Befunde zur Rezeption und Nutzung {.nullneunem}
+* **Summative Leistungsrückmeldung**
+    * breite Rezeption [@Dedering2011,; @Schneewind2007]
+    * geringe Nutzung zur Unterrichtsentwicklung [@Maier2008]
+    * externale Kausalattribution [@Hellrung2013]
+* **Formative Rückmeldungen zur Unterrichtsqualität**
+    * hohe intrische Motivation zur Rezeption [@Gaertner2014]
+    * konstruktive Nutzung zur Unterrichtsentwicklung [@Gaertner2014]
+    * positive Wirkung moderiert durch Individuelle Bedingungen [@Ditton2004]
 * <span style="color:#a51e41">Methodische Probleme:</span> Selbstauskünfte, hohe Selektivität, nichtexperimentelle/One-Shot Studien, unklare abhängige Konstrukte, ...
 
 
 # <span style="font-style: italic">Formative</span> Rückmeldungen für die <span style="font-style: italic">Unterrichtsentwicklung</span> 
 
-## Ableitung und Begründung {.nullneunem}
-* Institutionalisierte Rückmeldesysteme geben (größtenteils) **summative** Rückmeldungen zu **distalen** Größen
-* **Formatives** Feedback (Feedback <span style="font-style: italic">for</span> Learning) gilt als eine der **einflussreichsten Größen** (i.S. hinr. Bed.) für das Lernen im Allgemeinen [@Ditton2014; @Hattie2007; @Kluger1996]
-* UQ als Interaktionsprodukt von Lerngruppe und Lehrkraft ist 
-    * starker Prädiktor von Lernerfolg [@Kane2013] und 
-    * **proximal/heuristisch** zur/für die Unterrichtsentwicklung [@Helmke2009]
-* UQ wird bereits von den meisten Rückmeldesystemen erfasst 
-<center><img src="Img/Formative_UQD_w.png" height="200px" style="margin-top:19px"/></center>
-<div class="centered" >
-<font size="-1">
-Abb. 4: Potentielle Datenquellen formativer Rückmeldung von Unterrichtsqualität
-</font></div>  
-
-## Potentielle (experimentelle) Forschung
-* **Gestaltung** formativer Rückmeldungen
-    * Cues, Interaktivität, Zeitpunkt
-* **Rezeption** formativer Rückmeldungen von Unterrichtsqualität
-    * Effekte der Gestaltung: Inferenzniveau der Daten, Bezugsnorm, Gegenstand, Skalierung, statistische Kennwerte
-    * Effekte individueller, schulischer und außerschulischer Bedingungen
-* **Interventionen** zur Förderung korrekter und günstiger Rezeption
-    * Datenkompetenz, Bezugsnormorientierung
-<div class="centered" font-size=6pt><span style="color:#C57974"><font size="6pt"><p></p>
-Hohe Synergie möglich: Daten sind vorhanden, Feld ist interessiert, Probanden werden entlastet, Ergebnisse unmittelbar praxisrelevant</font></span>
-</div>
-
-# Ausblick
+## Beipiel für formative Rückmeldungen
+* Anfrage einer großen Nachhilfeschule nach Qualitätssicherung
+* Implementation regelmäßiger Evaluation der Unterrichtsqualität [SEEQ, @Marsh1982, Details siehe Anhang]
+* Entwicklung eines Onlineportals zur
+    * Zeitnahen bereitstellung formativen Feedback
+    * Aufzeichnung des Rezeptionsverhaltensverhaltens (Logdaten)
     
-## Erste Befunde einer DBR-Studie I
+## Das Onlineportal
+* Inferenzniveau:
+    * Einzelantworten
+    * Scores in den Qualitätsdimensionen
+    * Freitextantworten
+* Bezugsnorm:
+    * Likertskalierung
+    * soziale Bezugsnorm
+    * individuelle Bezugsnorm (ipsative Standardisierung)
+* Statistische Kennwerte, Standardisierung, ...
+    * siehe www.unterrichtsfeedback.net/demo_abiturma
+    
+## Erste Befunde zum Rezeptionsverhalten
+<iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="https://unterrichtsfeedback.net/logdataapp" width="100%" frameborder="0"></iframe>
+    
+    
+    
+    
+    
+# Herzlichen Dank!    
+    
+## Anhang I
 <iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="Design-Based-Research_Studie.html" width="100%" frameborder="0"></iframe>
 
-## Erste Befunde einer DBR-Studie II
-<iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="https://unterrichtsfeedback.net/logdataapp" width="100%" frameborder="0"></iframe>
-
-
-# Herzlichen Dank!
 
 <style>
 slides > slide { overflow: scroll; }
