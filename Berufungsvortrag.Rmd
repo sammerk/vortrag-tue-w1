@@ -30,15 +30,15 @@ knitr::opts_chunk$set(echo = FALSE)
     * Potentielle Forschung
 * Ausblick  -->
 
-* Verortung des Vortrags
-* Datengestützte Unterrichtsentwicklung
-    * Rahmenmodell
-* Institutionalisierte Rückmeldesysteme
-    * Funktion und Adressaten
-    * Befunde zur Rezeption
-* Formative Rückmeldung für die Unterrichtsentwicklung
-    * Begründung und exemplarische Umsetzung
-    * Erste Befunde zum Rezeptions- und Reflektionsverhalten
+1. Verortung des Vortrags
+2. Datengestützte Unterrichtsentwicklung
+     * Rahmenmodell
+3. Institutionalisierte Rückmeldesysteme
+     * Funktion und Adressaten
+     * Befunde zur Rezeption
+4.  Formative Rückmeldung für die Unterrichtsentwicklung
+     * Grundidee
+     * Exemplarische Umsetzung & Erste Befunde
 
 
 
@@ -70,6 +70,11 @@ Abb. 2: Zyklenmodell "Von der Evaluation zur Innovation" [@Helmke2005]
      margin-top: 1cm;
   }
 </style>
+<style>
+  .top-three {
+     margin-top: 3cm;
+  }
+</style>
 
 ## Rahmenmodell
 <center><img src="Img/Helmke_high.png" height ="450px" /></center>
@@ -85,7 +90,7 @@ Abb. 2: Zyklenmodell "Von der Evaluation zur Innovation" [@Helmke2005]
 # Institutionalisierte Rückmeldesysteme
 ## Institutionalisierte Rückmeldesysteme
 <center><img src="Img/Funktionen_Adressaten_ink1.png" width ="95%" /></center>
-<div class="centered" ><font size="-1">
+<div class="centered" ><font size="-0.7">
 Abb. 3: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altrichter2016]. Eigene Darstellung.
 </font></div>
 ## Institutionalisierte Rückmeldesysteme
@@ -99,16 +104,26 @@ Abb. 3: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altricht
 Abb. 3: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altrichter2016]. Eigene Darstellung.
 </font></div>
 
-
-## Summative vs. formative Rückmeldungen
-<center><img src="Img/tabelle_s_vs_f_1.png" width ="60%" /></center>
+## Rückmeldesysteme für die Akteure?
+## Rückmeldesysteme für die Akteure?
+<style>
+  .top-two {
+     margin-top: 2cm;
+  }
+</style>
+<center><img src="Img/tabelle_s_vs_f_0.png" width ="70%" class="top-two"/></center>
 <div class="centered" ><font size="-1">
-Tab. 1: Charakteristika formativer und summativer Rückmeldungen an Lehrer*innen [@Gartner2013b; @Maier2008]. Eigene Darstellung.
+Tab. 1: Nach Gärtner [-@Gartner2013b] und Maier [-@Maier2008]. Eigene Darstellung.
 </font></div>
-## Summative vs. formative Rückmeldungen
-<center><img src="Img/tabelle_s_vs_f_2.png" width ="60%" /></center>
+## Rückmeldesysteme für die Akteure?
+<center><img src="Img/tabelle_s_vs_f_1.png" width ="70%" class="top-two"/></center>
 <div class="centered" ><font size="-1">
-Tab. 1: Charakteristika formativer und summativer Rückmeldungen an Lehrer*innen [@Gartner2013b; @Maier2008]. Eigene Darstellung.
+Tab. 1: Nach Gärtner [-@Gartner2013b] und Maier [-@Maier2008]. Eigene Darstellung.
+</font></div>
+## Rückmeldesysteme für die Akteure?
+<center><img src="Img/tabelle_s_vs_f_2.png" width ="70%" class="top-two"/></center>
+<div class="centered" ><font size="-1">
+Tab. 1: Nach Gärtner [-@Gartner2013b] und Maier [-@Maier2008]. Eigene Darstellung.
 </font></div>
 
 
@@ -121,41 +136,61 @@ Tab. 1: Charakteristika formativer und summativer Rückmeldungen an Lehrer*innen
 * **Formative Rückmeldungen zur Unterrichtsqualität**
     * hohe intrische Motivation zur Rezeption [@Gaertner2014]
     * konstruktive Nutzung zur Unterrichtsentwicklung [@Gaertner2014]
-    * positive Wirkung moderiert durch Individuelle Bedingungen [@Ditton2004]
-* <span style="color:#a51e41">Methodische Probleme:</span> Selbstauskünfte, hohe Selektivität, nichtexperimentelle/One-Shot Studien, unklare abhängige Konstrukte, ...
+    * positive Wirkung auf Unterrichtsentwicklung (moderiert durch Individuelle Bedingungen) [@Ditton2004]
+* <span style="color:#a51e41" class="top-one">Methodische Probleme:</span> Selbstauskünfte, hohe Selektivität, nichtexperimentelle/One-Shot Studien, unklare abhängige Konstrukte, ...</span>
 
 
 # <span style="font-style: italic">Formative</span> Rückmeldungen für die <span style="font-style: italic">Unterrichtsentwicklung</span> 
 
-## Beipiel für formative Rückmeldungen
+## Grundidee
+<center><img src="Img/Grundidee_1.png" width ="90%" class="top-two"/></center>
+
+## Grundidee
+<center><img src="Img/Grundidee_2.png" width ="90%" class="top-two"/></center>
+
+## Exemplarische Umsetzung
 * Anfrage einer großen Nachhilfeschule nach Qualitätssicherung
 * Implementation regelmäßiger Evaluation der Unterrichtsqualität [SEEQ, @Marsh1982, Details siehe Anhang]
 * Entwicklung eines Onlineportals zur
-    * Zeitnahen bereitstellung formativen Feedback
+    * zeitnahen Bereitstellung formativen Feedback
     * Aufzeichnung des Rezeptionsverhaltensverhaltens (Logdaten)
     
-## Das Onlineportal
-* Inferenzniveau:
-    * Einzelantworten
-    * Scores in den Qualitätsdimensionen
-    * Freitextantworten
-* Bezugsnorm:
-    * Likertskalierung
-    * soziale Bezugsnorm
-    * individuelle Bezugsnorm (ipsative Standardisierung)
-* Statistische Kennwerte, Standardisierung, ...
-    * siehe www.unterrichtsfeedback.net/demo_abiturma
-    
-## Erste Befunde zum Rezeptionsverhalten
+## Das Onlineportal (einige Aspekte)
+* Inferenzniveau [@Rindermann1999]
+    * Einzelantworten, Skalenwerte, Freitextantworten
+      <center><img class="top-one" src="Img/Inf_innen.png" width ="100%"/></center>
+
+## Das Onlineportal (einige Aspekte)
+* Bezugsnorm [@Rheinberg2001]
+    * kriteriale Norm, soziale Bezugsnorm, intraindividuelle Bezugsnorm
+    <center><img class="top-one" src="Img/bez_innen.png" width ="100%"/></center>
+
+# Erste Befunde zum Rezeptionsverhalten
+## Verweildauer und Informativität
 <iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="https://unterrichtsfeedback.net/logdataapp" width="100%" frameborder="0"></iframe>
     
     
-    
+## Grundidee in diversen Kontexten
+<center><img class="top-three" src="Img/Grundidee_allg.png" width ="85%"/></center>
     
     
 # Herzlichen Dank!    
-    
+
 ## Anhang I
+## Potentielle (experimentelle) Forschung
+* **Gestaltung** formativer Rückmeldungen
+    * Cues, Interaktivität, Zeitpunkt
+* **Rezeption** formativer Rückmeldungen von Unterrichtsqualität
+    * Effekte der Gestaltung: Inferenzniveau der Daten, Bezugsnorm, Gegenstand, Skalierung, statistische Kennwerte
+    * Effekte individueller, schulischer und außerschulischer Bedingungen
+* **Interventionen** zur Förderung korrekter und günstiger Rezeption
+    * Datenkompetenz, Bezugsnormorientierung
+<div class="centered" font-size=6pt><span style="color:#C57974"><font size="6pt"><p></p>
+Hohe Synergie möglich: Daten sind vorhanden, Feld ist interessiert, Probanden werden entlastet, Ergebnisse unmittelbar praxisrelevant</font></span>
+</div>
+
+
+## Anhang II
 <iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="Design-Based-Research_Studie.html" width="100%" frameborder="0"></iframe>
 
 
