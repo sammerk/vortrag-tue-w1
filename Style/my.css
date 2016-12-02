@@ -1406,15 +1406,16 @@ aside.gdbar img {
   letter-spacing: -1.5px !important;
   color: #515151;
   margin-top: -200px !important; /* Der Haupttitel auf der Titelseite */
-  margin-left: -50px;
+  margin-left: -50px !important;
 }
 /* line 898, ../scss/default.scss */
 .title-slide hgroup h2 {
   font-size: 25px !important;  /* Der Untertiteltitel auf der Titelseite */
-  color: darkgrey;
+  color: #565C65 !important;
   line-height: 1.8;
   font-weight: inherit;
   letter-spacing: -0.8px !important;
+  margin-left: -50px !important;
 }
 /* line 904, ../scss/default.scss */  /* Autor */
 .title-slide hgroup p {

@@ -143,10 +143,13 @@ Tab. 1: Nach Gärtner [-@Gartner2013b] und Maier [-@Maier2008]. Eigene Darstellu
 # <span style="font-style: italic">Formative</span> Rückmeldungen für die <span style="font-style: italic">Unterrichtsentwicklung</span> 
 
 ## Grundidee
-<center><img src="Img/Grundidee_1.png" width ="90%" class="top-two"/></center>
+<center><img src="Img/Grundidee_1_1.png" width ="90%" class="top-two"/></center>
 
 ## Grundidee
-<center><img src="Img/Grundidee_2.png" width ="90%" class="top-two"/></center>
+<center><img src="Img/Grundidee_1_2.png" width ="90%" class="top-two"/></center>
+
+## Grundidee
+<center><img src="Img/Grundidee_1_3.png" width ="90%" class="top-two"/></center>
 
 ## Exemplarische Umsetzung
 * Anfrage einer großen Nachhilfeschule nach Qualitätssicherung
