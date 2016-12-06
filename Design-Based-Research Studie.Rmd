@@ -129,7 +129,7 @@ log_data_fplot <- log_data%>%
  
  
  ## Aufbereitung der Selbstauskunftsdaten
- kl_data_app <- kl_fb_data%>%                                 #  Infern      Kennw     Qualdim    Sk Allg
+ kl_data_app_wide <- kl_fb_data%>%                           #  Infern      Kennw     Qualdim    Sk Allg
    mutate(`Informativität_arith. Mittel` = FB06_01,          #           # x       #          #      
           `Informativität_Beziehung` = FB03_05,              #           #         #  x       #      
           `Informativität_Boxplot` = FB06_02,                #           # x       #          #      
@@ -138,15 +138,27 @@ log_data_fplot <- log_data%>%
           `Informativität_Enthusiasmus` = FB03_02,           #           #         #  x       #      
           `Informativität_Freitexte` = FB02_07,              #  x        #         #          #      
           `Informativität_Interaktion` = FB03_04,            #           #         #  x       #      
-          `Informativität_ipsativer Vergleich` = FB11_03,    #           #         #          # x   
+          `Informativität_ipsativer Vergleich` = FB10_03,    #           #         #          # x   
           `Informativität_Konfidenzintervall` = FB06_03,     #           # x       #          #      
           `Informativität_Lernerfolg` = FB03_01,             #           #         #  x       #      
-          `Informativität_Likertskala` = FB11_01,            #           #         #          # x   
+          `Informativität_Likertskala` = FB10_01,            #           #         #          # x   
           `Informativität_Organisation` = FB03_03,           #           #         #  x       #      
           `Informativität_Qualitätsdimensionen` = FB02_05,   #  x        #         #          #      
-          `Informativität_sozialer Vergleich` = FB11_02,     #           #         #          # x    
-           user = 1:n())%>%
-   
+          `Informativität_sozialer Vergleich` = FB10_02,     #           #         #          # x
+          
+          `Interpretation_arith. Mittel` = FB12_01,          #           # x       #          # 
+          `Interpretation_Boxplot` = FB12_02,                #           # x       #          #      
+          `Interpretation_Einzelitems` = FB02_06,            #  x        #         #          #      
+          `Interpretation_Einzelwerte` = FB12_04,            #           # x       #          #      
+          `Interpretation_Freitexte` = FB02_07,              #  x        #         #          #      
+          `Interpretation_ipsativer Vergleich` = FB11_03,    #           #         #          # x   
+          `Interpretation_Konfidenzintervall` = FB12_03,     #           # x       #          #      
+          `Interpretation_Likertskala` = FB11_01,            #           #         #          # x   
+          `Interpretation_Qualitätsdimensionen` = FB02_05,   #  x        #         #          #      
+          `Interpretation_sozialer Vergleich` = FB11_02,     #           #         #          # x
+           user = 1:n())
+
+ kl_data_app_long_Inf <- kl_data_app_wide%>%
    gather(VAR, Informativität, `Informativität_arith. Mittel`,
                     `Informativität_Beziehung`,
                     `Informativität_Boxplot`,
@@ -175,49 +187,173 @@ log_data_fplot <- log_data%>%
    group_by(variable)%>%
    mutate(Informativität_gm = scale_this(Informativität))%>%
    ungroup()
+ 
+ 
+ kl_data_app_long_Int <- kl_data_app_wide%>%
+   gather(VAR, Interpretationssicherheit, 
+                    `Interpretation_arith. Mittel`,
+                    `Interpretation_Boxplot`,
+                    `Interpretation_Einzelitems`, 
+                    `Interpretation_Einzelwerte`,
+                    `Interpretation_Freitexte`,
+                    `Interpretation_ipsativer Vergleich` ,
+                    `Interpretation_Konfidenzintervall`,
+                    `Interpretation_Likertskala`,
+                    `Interpretation_Qualitätsdimensionen`,
+                    `Interpretation_sozialer Vergleich`)%>%
+   dplyr::select(VAR, Interpretationssicherheit, user)%>%
+   mutate(value = substr(VAR, 16, 37),
+          variable = ifelse(value == "Einzelitems" | value == "Freitexte" | value == "Qualitätsdimensionen", "Inferenzniveau",
+                     ifelse(value == "arith. Mittel" | value == "Boxplot" | value == "Einzelwerte" | value == "Konfidenzintervall",  "Kennwerte",
+                     ifelse(value == "Lernerfolg" | value == "Interaktion" | value == "Organisation" | 
+                              value == "Beziehung" | value == "Enthusiasmus",  "Qualitätsdimension",
+                     ifelse(value == "ipsativer Vergleich" | value == "sozialer Vergleich" | value == "Likertskala", "Skalierung Qualitätsdim.", "XXXX")))))%>%
+   group_by(user)%>%
+   mutate(Interpretationssicherheit_ip = scale_this(Interpretationssicherheit))%>%
+   ungroup()%>%
+   group_by(variable)%>%
+   mutate(Interpretationssicherheit_gm = scale_this(Interpretationssicherheit))%>%
+   ungroup()%>%
+   select(-VAR)
+ 
+ kl_data_app <- full_join(kl_data_app_long_Inf, kl_data_app_long_Int, by = c("user", "value", "variable"))
+ 
+ 
+ 
+kl_data_app_long_Inf_leit <- kl_data_app_wide%>%
+  select(user, FB13_01, FB13_02, FB13_03, FB13_04)%>%
+  gather(VAR, Informativität, -user)%>%
+  mutate(variable = "Leitfragen",
+         value = ifelse(VAR == "FB13_01", "Überblick",
+                        ifelse(VAR == "FB13_02", "ipsativer Vergleich",
+                               ifelse(VAR == "FB13_03", "Vergl. zw. eigenen Gruppen",
+                                      "sozialer Vergleich"))))%>%
+   group_by(user)%>%
+   mutate(Informativität_ip = scale_this(Informativität))%>%
+   ungroup()%>%
+   group_by(variable)%>%
+   mutate(Informativität_gm = scale_this(Informativität))%>%
+   ungroup()%>%
+   select(-VAR)
   
- ## Export
- readr::write_csv(kl_data_app, "shiny/kl_data_app.csv")
+ 
+
+kl_data_app_long_Int_leit <- kl_data_app_wide%>%
+  select(user, FB14_01, FB14_03, FB14_02, FB14_04)%>%
+  gather(VAR, Interpretationssicherheit, -user)%>%
+  mutate(variable = "Leitfragen",
+         value = ifelse(VAR == "FB14_01", "Überblick",
+                        ifelse(VAR == "FB14_03", "ipsativer Vergleich",
+                               ifelse(VAR == "FB14_02", "Vergl. zw. eigenen Gruppen",
+                                      "sozialer Vergleich"))))%>%
+   group_by(user)%>%
+   mutate(Interpretationssicherheit_ip = scale_this(Interpretationssicherheit))%>%
+   ungroup()%>%
+   group_by(variable)%>%
+   mutate(Interpretationssicherheit_gm = scale_this(Interpretationssicherheit))%>%
+   ungroup()%>%
+   select(-VAR)
+
+
+
+
+ 
+ 
+kl_data_app <- full_join(kl_data_app_long_Inf, kl_data_app_long_Int, by = c("user", "value", "variable"))
+kl_data_app <- full_join(kl_data_app, kl_data_app_long_Inf_leit, by = c("user", "value", "variable", "Informativität", 
+                                                                        "Informativität_ip", "Informativität_gm"))
+
+kl_data_app <- full_join(kl_data_app, kl_data_app_long_Int_leit, by = c("user", "value", "variable", "Interpretationssicherheit", 
+                                                                        "Interpretationssicherheit_ip", "Interpretationssicherheit_gm"))
+  
+## Export
+readr::write_csv(kl_data_app, "shiny/kl_data_app.csv")
  
 ```
 
+```{r CFA_SEEQ}
+library(lavaan)
+
+# Definition von Printfunktionen
+
+fpf_la <- function(x){  
+
+  fm_tmp <- fitmeasures(x)
+                    
+  return(sprintf(
+          "χ² = %s, _df_ = %s, CFI = %s, TLI = %s, RMSEA = %s, SRMR = %s",
+           round(fm_tmp[c("chisq")],3), 
+                 fm_tmp[c("df")],
+           round(fm_tmp[c("cfi")],3),
+           round(fm_tmp[c("tli")],3),
+           round(fm_tmp[c("rmsea")],3),
+           round(fm_tmp[c("srmr")],3)
+             )
+       )
+}
+
+rpf_bv <- function(x){  
+  
+   reldat <- sus_fb_data%>%
+                    select(starts_with(as.character(x)))%>%
+                    select(-ends_with("pc"))
+   relinfo <- MBESS::ci.reliability(data.frame(select(reldat, 
+                                                      starts_with(as.character(x)))))
+                      
+  
+  return(sprintf(
+            "ω = %s, 95%% CI [%s, %s])",
+            round(relinfo$est, 2),
+            round(relinfo$ci.lower, 2),
+            round(relinfo$ci.upper, 2)
+            )
+         )
+}
+
+
+# CFA
+
+cfa.seeq.mod <- "lern =~ le1 + le2 + le3 + le4
+                 enth =~ en1 + en2 + en3 + en4
+                 orga =~ or1 + or3 + or3 + or4 
+                 grin =~ ci1 + ci2 + ci3 + ci4
+                 indb =~ ir1 + ir2 + ir3
+                 en1 ~~ en2
+                 or3 ~~ or4"
+
+cfa.fit <- cfa(cfa.seeq.mod, data = sus_fb_data, std.lv = T)
+
+# Skalenwerte generieren
+sus_fb_data <- sus_fb_data%>%
+  mutate(sle = rowMeans(data.frame(le1,le2,le3,le4), na.rm=T),
+         sen = rowMeans(data.frame(en1,en2,en3,en4), na.rm=T),
+         sor = rowMeans(data.frame(or1,or2,or3,or4), na.rm=T),
+         sir = rowMeans(data.frame(ir1,ir2,ir3), na.rm=T),
+         sci = rowMeans(data.frame(ci1,ci2,ci3,ci4), na.rm=T))
+```
+
+
 # Design & Stichprobe
-* Anfrage einer großen Nachhilfeschule nach Feedback für Lehrende 
-     * $N_{Level_1}$ = `r nrow(sus_fb_data)` Schüler\*innenfragebögen
-     * $N_{Level_2}$ = `r length(unique(log_data$user))` Lehrer\*innen = Studierende
+* $N_{Level_1}$ = `r nrow(sus_fb_data)` Schüler\*innenfragebögen
+* $N_{Level_2}$ = `r length(unique(log_data$user))` Lehrer\*innen = Studierende
 * Entwicklung/Adaption eines Instrumentes zur Erfassung der Instruktionsqualität, basierend auf dem Instrument **Students Evaluations of Educational Quality** [SEEQ, @Marsh1982]
      * Fünf Dimensionen: Lernerfolg, Organisation, Enthusiasmus, Interaktion, Beziehung
-     * Hohe Konstruktvalidität (MLCFA: )
-     * Hohe Reliabilität auf Level 1 (McDonals Omega): 
-     * Zufriedenstellende Reliabilität auf Level 2 (ICC2):
-* Entwicklung einer **interaktiven Webapplikation** zur Rezeption des formativen Feedbacks
+     * Hohe Konstruktvalidität (CFA: `r fpf_la(cfa.fit)`)
+     * Gute Reliabilität auf Level 1 (McDonals Omega) in 4 Dimensionen:
+          * Lernerfolg: `r rpf_bv("le")`
+          * Enthusiasmus: `r rpf_bv("en")`
+          * Organistaion: `r rpf_bv("or")`
+          * Gruppeninteraktion: `r rpf_bv("ci")`
+          * Individuelle Beziehung: `r rpf_bv("ir")`
+     * Sehr gute Reliabilität auf Level 2 (ICC2):
+          * Lernerfolg: `r round(psychometric::ICC2.lme(sle, Tutor, sus_fb_data), 3)`
+          * Enthusiasmus: `r round(psychometric::ICC2.lme(sen, Tutor, sus_fb_data), 3)`
+          * Organistaion: `r round(psychometric::ICC2.lme(sor, Tutor, sus_fb_data), 3)`
+          * Gruppeninteraktion: `r round(psychometric::ICC2.lme(sci, Tutor, sus_fb_data), 3)`
+          * Individuelle Beziehung: `r round(psychometric::ICC2.lme(sir, Tutor, sus_fb_data), 3)`   
 * **Logdaten** der Webapplikation und retrospektive Befragung
      * $N$ = `r nrow(log_data)` Feedbackanforderungen (Logdaten)
      * $N$ = `r nrow(kl_fb_data)` retrospektive Befragungen
-
-
-# Material
-## Feedback-App
-<video controls="controls" class="centered"  width = 100%>
-  <source  type="video/mp4" src="Img/screencast_cut.mp4"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
-
-## Login-Seite
-![alt text](Img/sc_sh_login.png)
-
-## Einzelantworten
-![alt text](Img/sc_sh_einz.png)
-
-## Qualitätdimensionen (freie Gestaltung)
-![alt text](Img/sc_sh_q1.png)
-
-## Qualitätdimensionen (Leitfragen)
-![alt text](Img/sc_sh_q2.png)
-
-## Freitexte
-![alt text](Img/sc_sh_frei.png)
-
 
 
 # Literatur

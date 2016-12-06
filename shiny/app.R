@@ -76,7 +76,7 @@ shinyApp(
                  
                                   
                  
-                 ## Auswahl der unabhängigen Vriable nach inout$x
+                 ## Auswahl der unabhängigen Variable nach inout$x
                  log_data_app <- log_data_app[log_data_app$variable == print(input$x), ]
                        
                        
@@ -112,7 +112,7 @@ shinyApp(
           ## Fall B Selbstauskunftsdaten
            if(!input$y %in% c("Anz. Klicks", "Verweildauer")){
              
-             ## Abhängige Variable je "Skalierung" wählen
+             ## Abhängige Variable je "Skalierung" und input$Y wählen
              if(input$y == "Informativität" & input$skalierung == "Rohwerte")
                kl_data_app$plot_y <- kl_data_app$Informativität
              
@@ -121,6 +121,18 @@ shinyApp(
              
              if(input$y == "Informativität" & input$skalierung == "ipsativ stand. Werte")
                kl_data_app$plot_y <- kl_data_app$Informativität_ip
+             
+             
+             ## Abhängige Variable je "Skalierung" und input$Y wählen
+             if(input$y == "Interpretationssicherheit" & input$skalierung == "Rohwerte")
+               kl_data_app$plot_y <- kl_data_app$Interpretationssicherheit
+             
+             if(input$y == "Interpretationssicherheit" & input$skalierung == "z-student. Werte")
+               kl_data_app$plot_y <- kl_data_app$Interpretationssicherheit_gm
+             
+             if(input$y == "Interpretationssicherheit" & input$skalierung == "ipsativ stand. Werte")
+               kl_data_app$plot_y <- kl_data_app$Interpretationssicherheit_ip
+             
              
              
             ## Auswahl der unabhängigen Variable nach inout$x

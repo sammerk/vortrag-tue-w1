@@ -1,6 +1,6 @@
 ---
 title: "Forschung zur Rezeption formativer Rückmeldungen von Unterrichtsqualität"
-subtitle: "Ein schulpädagogischer Beitrag zur datengestützen Unterrichtsentwicklung"
+subtitle: "Ein schulpädagogischer Beitrag zur datengestützten Unterrichtsentwicklung"
 author: "Samuel Merk"
 output: 
   ioslides_presentation:
@@ -9,13 +9,13 @@ output:
     logo: Img/logo.png
     smaller: no
     widescreen: yes
-bibliography: ../../../../../../Downloads/library.bib
+bibliography: Bib/library.bib
 csl: Bib/dgps.csl
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-#Bib/library.bib
+# ../../../../../../Downloads/library.bib
 ```
 
 ## Inhaltlicher und organisatorischer Überblick
@@ -93,16 +93,25 @@ Abb. 2: Zyklenmodell "Von der Evaluation zur Innovation" [@Helmke2005]
 <div class="centered" ><font size="-0.7">
 Abb. 3: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altrichter2016]. Eigene Darstellung.
 </font></div>
+<div class="centered"><span style="color:#C57974 margin-bottom:2cm"><font size="3pt">
+<p class="top-one">Folien: http://bit.ly/2gQTbSj - Quellcode: https://github.com/sammerk/vortrag-tue-w1</p></font></span>
+</div>
 ## Institutionalisierte Rückmeldesysteme
 <center><img src="Img/Funktionen_Adressaten_ink2.png" width ="95%" /></center>
 <div class="centered" ><font size="-1">
 Abb. 3: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altrichter2016]. Eigene Darstellung.
 </font></div>
+<div class="centered"><span style="color:#C57974 margin-bottom:2cm"><font size="3pt">
+<p class="top-one">Folien: http://bit.ly/2gQTbSj - Quellcode: https://github.com/sammerk/vortrag-tue-w1</p></font></span>
+</div>
 ## Institutionalisierte Rückmeldesysteme
 <center><img src="Img/Funktionen_Adressaten_ink3.png" width ="95%" /></center>
 <div class="centered" ><font size="-1">
 Abb. 3: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altrichter2016]. Eigene Darstellung.
 </font></div>
+<div class="centered"><span style="color:#C57974 margin-bottom:2cm"><font size="3pt">
+<p class="top-one">Folien: http://bit.ly/2gQTbSj - Quellcode: https://github.com/sammerk/vortrag-tue-w1</p></font></span>
+</div>
 
 ## Rückmeldesysteme für die Akteure?
 ## Rückmeldesysteme für die Akteure?
@@ -112,35 +121,35 @@ Abb. 3: Primäre Funktionen und Adressaten diverser Rückmeldesysteme [@Altricht
   }
 </style>
 <center><img src="Img/tabelle_s_vs_f_0.png" width ="70%" class="top-two"/></center>
-<div class="centered" ><font size="-1">
+<div class="centered" ><font size="-0.8">
 Tab. 1: Nach Gärtner [-@Gartner2013b] und Maier [-@Maier2008]. Eigene Darstellung.
 </font></div>
 ## Rückmeldesysteme für die Akteure?
 <center><img src="Img/tabelle_s_vs_f_1.png" width ="70%" class="top-two"/></center>
-<div class="centered" ><font size="-1">
+<div class="centered" ><font size="-0.7">
 Tab. 1: Nach Gärtner [-@Gartner2013b] und Maier [-@Maier2008]. Eigene Darstellung.
 </font></div>
 ## Rückmeldesysteme für die Akteure?
 <center><img src="Img/tabelle_s_vs_f_2.png" width ="70%" class="top-two"/></center>
-<div class="centered" ><font size="-1">
+<div class="centered" ><font size="-0.7">
 Tab. 1: Nach Gärtner [-@Gartner2013b] und Maier [-@Maier2008]. Eigene Darstellung.
 </font></div>
 
 
 
-## Befunde zur Rezeption und Nutzung {.nullneunem}
+## Befunde zur Rezeption und Nutzung 
 * **Summative Leistungsrückmeldung**
     * breite Rezeption [@Dedering2011,; @Schneewind2007]
     * geringe Nutzung zur Unterrichtsentwicklung [@Maier2008]
     * externale Kausalattribution [@Hellrung2013]
 * **Formative Rückmeldungen zur Unterrichtsqualität**
-    * hohe intrische Motivation zur Rezeption [@Gaertner2014]
+    * hohe intrinsische Motivation zur Rezeption [@Gaertner2014]
     * konstruktive Nutzung zur Unterrichtsentwicklung [@Gaertner2014]
     * positive Wirkung auf Unterrichtsentwicklung (moderiert durch Individuelle Bedingungen) [@Ditton2004]
-* <span style="color:#a51e41" class="top-one">Methodische Probleme:</span> Selbstauskünfte, hohe Selektivität, nichtexperimentelle/One-Shot Studien, unklare abhängige Konstrukte, ...</span>
+* <span style="color:#a51e41" class="top-one">Methodische Probleme:</span> Selbstauskünfte, hohe Selektivität, nichtexperimentelle/One-Shot-Studien, unklare abhängige Konstrukte, ...</span>
 
 
-# <span style="font-style: italic">Formative</span> Rückmeldungen für die <span style="font-style: italic">Unterrichtsentwicklung</span> 
+# Rückmeldungen für die Unterrichtsentwicklung
 
 ## Grundidee
 <center><img src="Img/Grundidee_1_1.png" width ="90%" class="top-two"/></center>
@@ -152,11 +161,11 @@ Tab. 1: Nach Gärtner [-@Gartner2013b] und Maier [-@Maier2008]. Eigene Darstellu
 <center><img src="Img/Grundidee_1_3.png" width ="90%" class="top-two"/></center>
 
 ## Exemplarische Umsetzung
-* Anfrage einer großen Nachhilfeschule nach Qualitätssicherung
+* Anfrage einer großen Nachhilfeschule ($N_{Level_1}$ = 9730 Schüler\*innen; $N_{Level_2}$ = 189 Lehrer\*innen = Studierende) nach Qualitätssicherung
 * Implementation regelmäßiger Evaluation der Unterrichtsqualität [SEEQ, @Marsh1982, Details siehe Anhang]
 * Entwicklung eines Onlineportals zur
-    * zeitnahen Bereitstellung formativen Feedback
-    * Aufzeichnung des Rezeptionsverhaltensverhaltens (Logdaten)
+    * zeitnahen Bereitstellung formativen Feedbacks
+    * Aufzeichnung des Rezeptionsverhaltens (Logdaten)
     
 ## Das Onlineportal (einige Aspekte)
 * Inferenzniveau [@Rindermann1999]
@@ -179,7 +188,7 @@ Tab. 1: Nach Gärtner [-@Gartner2013b] und Maier [-@Maier2008]. Eigene Darstellu
     
 # Herzlichen Dank!    
 
-## Anhang I
+# Anhang I
 ## Potentielle (experimentelle) Forschung
 * **Gestaltung** formativer Rückmeldungen
     * Cues, Interaktivität, Zeitpunkt
@@ -193,9 +202,13 @@ Hohe Synergie möglich: Daten sind vorhanden, Feld ist interessiert, Probanden w
 </div>
 
 
-## Anhang II
+# Anhang II
+## Psychometrie SEEQ
 <iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="Design-Based-Research_Studie.html" width="100%" frameborder="0"></iframe>
 
+
+## Skalenhandbuch Lehrerfragebogen
+<iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="Img/Skalenhandbuch_abiturma_survey_fr_16_Gruppe2.html" width="100%" frameborder="0"></iframe>
 
 <style>
 slides > slide { overflow: scroll; }
